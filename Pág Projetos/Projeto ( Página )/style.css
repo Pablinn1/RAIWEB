@@ -1,0 +1,83 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    font-family: cairo-bold;
+    src: url(cairo-bold.ttf);
+    font-size: larger;
+    color: #E6E6E6;
+    background-color:#05053F;
+    height: 100vh;
+
+}
+
+.logo{
+    width: 6em;
+    height: 6em;
+    margin-right: 500px;
+}
+
+.navegação{
+    margin-left: 25em;
+}
+
+.aba_de_navegação_superior {
+display:flex;
+align-items: center;
+justify-content:space-evenly;
+background-color: #05053F;
+padding: 2px;
+border-bottom: solid 4px #09CCCC;
+}
+
+.ul{
+    list-style: none;
+}
+
+.li{
+    display: inline;
+}
+
+.a{
+padding: 0.5em;
+font-size: 24px;
+font-weight: bold;
+color: #09CCCC;
+text-decoration: none;
+}
+
+.a:hover {
+    color:blueviolet;
+}
+.Eixo {
+    font-weight: bold;
+    font-size: 40px;
+    color: #09CCCC;
+    }
+    
+.Eixo:hover{
+color: rgb(22, 38, 185)
+ }
+
+.grid-container {
+    margin-top: 50px;
+    display:grid;
+    grid-template-columns: auto auto auto ;
+    padding: 10px;
+  }
+  .grid-item {
+    padding: 15px;
+    text-align: center;
+  }
+  .logo2{
+    width: 15em;
+    height: 15em;
+  }
+  .Projeto {
+color: #09CCCC;
+margin-left: 100px;
+
+margin-top: 4%;
+ }

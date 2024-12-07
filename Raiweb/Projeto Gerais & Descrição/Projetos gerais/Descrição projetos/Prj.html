@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leitor RFID</title>
+    <link rel="shortcut icon" href="img/dark_logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body style="background-color: #060629;">
+
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top" id="barra_de_navegacao_superior">
+            <div class="caixa_da_barra_de_navegacao container-fluid nav-container">
+
+                <!--logo raitec-->
+                <div class="caixa_de_logo_raitec">
+                    <a href="#" class="ancora_logo_raitec" target="_blank"> <!--CASO QUEIRAM COLOCAR ANCORA-->
+                        <img src="img/ciano_nome_lado.png" class="imagem_logo_raitec" />
+                    </a>
+                </div>
+                
+                <!-- Título do Eixo -->
+            <div class="Eixo-Title"> <h1> Técnico </h1> </div>
+        
+                <!--icone de perfil-->
+                <div class="caixa_de_perfil_membro">
+
+                    <a href="https://www.instagram.com/raitec.ufc/" class="ancora__perfil_membro">
+                        <!--INSERIR LINK PARA O INSTAGRAM DO RAITEC!!!!!!!!!! -->
+                        <img src="img/IconeInstagram.png" class="Icones-midias" />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCNcco9uuPG6HPBuTnYfdaAg" class="ancora__perfil_membro">
+                        <!--INSERIR LINK PARA O YOUTUBE DO RAITEC!!!!!!!!!! -->
+                        <img src="img/IconeYoutube.png" class="Icones-midias" />
+                    </a>
+
+                    <a href="https://br.linkedin.com/company/raitec-ufc" class="ancora__perfil_membro">
+                        <!--INSERIR LINK PARA O LIKEDIN DO RAITEC!!!!!!!!!! -->
+                        <img src="img/IconeLikedin.png" class="Icones-midias" />
+                    </a>
+
+                    <a href="https://www.youtube.com/watch?v=WGXeoXchdfQ&ab_channel=KK" class="ancora__perfil_membro">
+                        <!--INSERIR LINK PARA PERFIL DO MEMBRO RAITECNICO(A)!!!!!!!!!! -->
+                        <img src="img/foto-perfil-brad-pitt.jpg" class="imagem_de_perfil" />
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="resumoProjeto">
+
+        <div class="container-slider">
+            <button id="prev-button"> <img src="img/arrow2.png" alt="prev-button" onclick="prevSlider()"> </button>
+            <div class="container-images">
+                <img src="img/IMG_5077.jpg" alt="icon0" class="slider on">
+                <img src="img/Phantom-Drone.jpg" alt="icon" class="slider">
+                <img src="img/Oscar3.png" alt="icon" class="slider">
+            </div>
+            <button id="next-button"><img src="img/arrow2.png" alt="next-button" onclick="nextSlider()"></button>
+        </div>
+
+        <div class="datas">
+            <p class="tituloDiv">Leitor Rfid</p>
+            <p class="datas-text">
+                Data de início: 08/08/2023 </p>
+            <p class="datas-text2"> Data estimada de término: 09/08/2023
+            </p>
+            <div class="barraDeCarregamento"></div>
+        </div>
+    </div>
+
+    <div class="membros">
+        <p class="tituloMembros">Membros</p>
+        <div class="fotosMembros">
+            <img class="fotos" src="img/mirio-togata-Capitão-América.jpeg" alt="fotos">
+            <img class="fotos" src="img/foto_de_perfil.jpg" alt="fotos">
+            <img class="fotos" src="img/Dio-1.jpg" alt="fotos">
+        </div>
+    </div>
+
+        <div class="Descrição">
+        <p class="tituloDescrição"> Descrição: </p>
+        <p class="descrição-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime beatae autem error
+            distinctio odio.</p>
+    </div>
+</body>
+<script src="descrição.js"></script>
+
+</html>

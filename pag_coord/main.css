@@ -1,0 +1,115 @@
+
+body{
+    background-color: #05053f;
+}
+
+.cabecalho{
+    background-color: #05053f;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px -1px;
+    border-bottom: 10px solid #09cccc;
+    gap: 120px;
+    
+}
+.header-redes_sociais{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 15%;
+}
+.img_redessociais{
+    width: 100%;
+}    
+
+.logoimagem {
+    width: 20%;
+}
+.titulo-header{
+    color: #00eeff;
+    font-family: cairo bold;
+    src: url(cairo-bold.ttf);
+    font-size: 66px;
+}
+.imagem_perfil{
+    width: 8%;
+}
+.lista-header__main{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 400px;
+}
+.lista-objeto{
+    background-color: white;
+    padding: 12px 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+.lista-objeto:hover{
+    background-color: #5C09AD;
+    color: white;
+}
+
+.T_maior{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 200px;
+
+}
+
+.Membros{
+    justify-content: center;
+    color: #00eeff;
+    font-weight:bold;
+    font-size: 30px;
+
+}
+.Dtec{
+    justify-content: center;
+    color: #00eeff;
+    font-weight:bold;
+    font-size: 30px;
+
+}
+#seta {
+    position: absolute;
+    padding: 13px;
+    box-shadow: 2px -2px 0 1px white;
+    margin-right: 950px;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(135deg);
+  }
+.Topicos_dtec{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 3fr);
+    padding:30px 0px ;
+    color: black;
+}
+.lista-dtec {
+    background-color: white;
+    padding: 12px 12px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+.lista-dtec:hover{
+    background-color: #5C09AD;
+    color: white;
+}
+iframe{
+    margin-top: 1cm;
+    width: 800px;
+    height: 100vh;
+}
+.hidden {
+    display: none;
+}

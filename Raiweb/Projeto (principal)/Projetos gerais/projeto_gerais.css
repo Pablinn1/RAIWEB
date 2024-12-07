@@ -1,0 +1,266 @@
+.bg-primary-color {
+    background-color: #05053F;
+}
+
+.bg-secondary-color {
+    background-color: #E6E6E6;
+}
+
+.primary-color {
+    color: #09CCCC;
+}
+
+.secondary-color {
+    color: #E6E6E6;
+}
+
+.card-primary-color {
+    color: #5C09AD;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+.card-secondary-color {
+    color: #05053F;
+    background-color: #e6e6e6;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #0000;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #060629;
+}
+
+textarea {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+    color: white;
+    height: 30px;
+    width: 50%;
+    margin-left: 30%;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+button {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bolder;
+    color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+    background-color: purple;
+}
+
+button:hover {
+    background-color: #09CCCC;
+    color: #05053F;
+}
+
+.botao {
+    padding-top: 5%;
+    background-color: transparent;
+    border: transparent;
+    text-align: center;
+    font-size: 40px;
+    margin: auto;
+    display: block;
+    transition: 1ms;
+}
+
+.botao:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: #E6E6E6;
+    transform: scale(1.07);
+
+}
+
+/*barra de navegacao*/
+.navbar {
+    width: 100%;
+    border-bottom: 5px solid #09CCCC;
+    position: fixed;
+    background-color: #060629;
+}
+
+.caixa_da_barra_de_navegacao {
+    width: 100%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.caixa_de_logo_raitec {
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.imagem_logo_raitec {
+    width: 200px;
+    display: flex;
+    cursor: pointer;
+}
+
+.imagem_logo_raitec:hover {
+    transform: scale(1.01);
+}
+
+
+.caixa_de_perfil_membro {
+    margin-right: 5%;
+    display: flex;
+    gap: 5%;
+}
+
+.imagem_de_perfil {
+    width: 70px;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 100%;
+    cursor: pointer;
+    object-fit: cover;
+
+}
+
+.imagem_de_perfil:hover {
+    border-color: #09CCCC;
+    transform: scale(1.1);
+}
+
+
+/* ícone Midias */
+.Icones-midias {
+    width: 65px;
+    display: flex;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.Icones-midias:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Informações do Usuário */
+.info-usuario {
+    color: #e6e6e6;
+}
+
+
+/* PROJETOS */
+.titulo {
+    text-align: center;
+    font-size: larger !important;
+}
+
+#featured-container {
+    margin-bottom: 5em;
+
+}
+
+.img-fluid1 {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2.5px solid white;
+    object-fit: cover;
+}
+
+.col-md-4 :before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 3.5%;
+    width: 93%;
+    height: 100%;
+    background-color: #E6E6E6;
+    opacity: 0;
+    transition: opacity 0.3s;
+    border-radius: 10px;
+}
+
+.col-md-4 :hover::before {
+    opacity: 0.65;
+    transform: scale(1.04);
+}
+
+
+.title {
+    font-size: 1.75em;
+    margin-bottom: 0.4em;
+    position: relative;
+}
+
+.title:before {
+    width: 75px;
+    content: "";
+    position: absolute;
+    bottom: 2em;
+}
+
+
+#featured-images {
+    margin-top: 4em;
+}
+
+#featured-images .col-md-4 {
+    position: relative;
+    cursor: pointer;
+}
+
+#featured-images .banner-content {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media(min-width: 768px) {
+    .title {
+        font-size: 2.4em;
+    }
+
+    .title:before {
+        bottom: 1.5em;
+    }
+
+    #featured-images .banner-content {
+        opacity: 0;
+    }
+}
+
+
+
+/* Modal */
+
+.btn-primary {
+    background-color: #5b09ade4 !important;
+    border: 2px solid #5C09AD !important;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+
+}
+
+.btn-secondary {
+    background-color: #595959 !important;
+    border: solid 2px #3c494974 !important;
+}
+
+.btn-secondary:hover {
+    transform: scale(1.1);
+}
